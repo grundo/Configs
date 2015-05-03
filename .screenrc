@@ -1,0 +1,13 @@
+startup_message off
+defutf8 on
+caption always "%{kk} ORE HA PEKOPEKO" 
+hardstatus alwayslastline "%{+b Kr} [ %H ] %{Ky}| %{= Kw}%-Lw%{= bW}%n%f %t%{-}%+Lw %-=%{+b Kr} %c %M %d "
+altscreen on
+defscrollback 5000
+
+attrcolor b ".I"
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+defbce "on"
+
+
+
